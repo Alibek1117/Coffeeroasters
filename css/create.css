@@ -1,0 +1,221 @@
+section.create__hero {
+    padding-top: 20px;
+}
+
+section.create__hero .container {
+    background-image: url(../img/create_hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px 66px;
+    border-radius: 10px;
+
+}
+
+section.create__hero .container .container2 {
+    padding: 110px 0;
+}
+
+section.create__hero .container h1 {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 30px;
+
+}
+
+section.create__hero .container p {
+    margin-top: 30px;
+    width: 450px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+section.creat__order .container {
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+section.creat__order .container .how-work {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 150px;
+
+}
+
+section.creat__order .container .how-work h2,
+section.creat__order .container .how-work p {
+    color: #FEFCF7;
+}
+
+
+
+
+
+
+
+
+section.how__drink {
+    margin-top: 160px;
+}
+
+section.how__drink .container2 {
+    display: flex;
+}
+
+section.how__drink .how__drink__left {
+    width: 30%;
+
+}
+
+section.how__drink .how__drink__left h2 {
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 32px;
+    color: #333D4B;
+    opacity: 0.6;
+    border-bottom: 2px solid #d4d1d1;
+    padding: 20px 0;
+    margin: 0;
+
+
+}
+
+section.how__drink .how__drink__left h2:hover {
+    color: #000000;
+}
+
+section.how__drink .how__drink__left h2:last-child {
+    border: none;
+}
+
+section.how__drink .how__drink__left .drink__number {
+    margin-right: 24px;
+}
+
+section.how__drink .how__drink__right {
+    width: 70%;
+    padding-left: 70px;
+
+}
+
+.box .box__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .box__title h1 {
+    margin-bottom: 50px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 48px;
+    color: #83888F;
+
+}
+
+.box .box__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.box .box__cards .box__card {
+    padding: 30px 10px 60px 10px;
+    box-sizing: border-box;
+    background: #F4F1EB;
+    border-radius: 8px;
+    color: #333D4B;
+}
+
+
+.box .box__cards .box__card:hover {
+    background-color: #FDD6BA;
+    transform: scale(1.01);
+    box-shadow: 0 5px 10px black;
+
+}
+
+
+
+
+
+.box .box__cards .box__card h1 {
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    
+    margin: 0;
+
+}
+
+.box .box__cards .box__card p {
+    width: 180px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+
+}
+.box .box__cards .blue-card {
+    background-color: #0E8784;
+    color: #fff;
+
+}
+
+
+
+
+
+.order-summary {
+    background-color: #2C343E;
+    padding: 20px 60px;
+    border-radius: 10px;
+
+}
+
+.order-summary h3 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+
+}
+
+.order-summary h1 {
+    font-family: Fraunces ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+.order-summary h1 .blue-text{
+    color: #0E8784;
+}
+
+.creat-btn{
+    float: right;
+}

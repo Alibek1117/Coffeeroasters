@@ -77,10 +77,15 @@ header .logo .logo__text {
     color: #0b0c0c !important;
     text-shadow: 0px 5px 10px  #222324;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .navbar ul li:hover{
     transform: scale(1.05);
+    transition: 0.5s;
+}
+.navbar ul li:active{
+    transform: scale(0.95);
 }
 
 
@@ -303,7 +308,7 @@ section.how-work h4 {
     color: #83888F;
 }
 
-section.how-work .liner {
+.how-work .liner {
     margin-top: 100px;
     margin-bottom: 80px;
     width: 760px;
@@ -315,7 +320,7 @@ section.how-work .liner {
 
 }
 
-section.how-work .liner .sircle {
+.how-work .liner .sircle {
     width: 31px;
     height: 31px;
     border-radius: 50%;
@@ -414,9 +419,9 @@ footer .logo .logo__text {
 
 span.go__up{
     border-radius: 50%;
-    position: sticky;
-    bottom: 121px;
-    left: 1166px;
+    position: absolute;
+    bottom: 98px;
+    left: 1229px;
     background-color: #2C343E;
     padding: 5px;
 }
