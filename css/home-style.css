@@ -26,7 +26,8 @@ header{
 .logo:hover .img__logo{
     transform: rotate(360deg);
     cursor: pointer;
-    transition: 1s linear;
+    transition: 1s linear ;
+    
 }
     
 
@@ -43,6 +44,8 @@ header .logo .logo__text {
 
 .navbar ul {
     display: flex;
+    justify-content: end;
+
 
 }
 
@@ -68,8 +71,18 @@ header .logo .logo__text {
 .navbar ul a:hover{
     color: #222324;
     text-shadow: 0px 5px 10px  #222324;
-    font-size: 13px;
+    transform: scale(1.05);
 }
+.active1{
+    color: #0b0c0c !important;
+    text-shadow: 0px 5px 10px  #222324;
+    transform: scale(1.05);
+}
+
+.navbar ul li:hover{
+    transform: scale(1.05);
+}
+
 
 section.hero {
     margin: 60px auto;
@@ -234,6 +247,18 @@ section.choose .container .choose__card {
     border-radius: 10px;
 }
 
+section.choose .container .choose__card:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px 1px black;
+    transition: 1s;
+}
+
+section.choose .container .choose__card:hover img{
+    transform: rotate(360deg);
+    transition: 1s;
+
+}
+
 section.choose .container .choose__card h5 {
     font-family: 'Fraunces 9pt';
     font-style: normal;
@@ -384,4 +409,22 @@ footer .logo .logo__text {
     font-weight: 900;
     font-size: 30px;
     color: #fff;
+}
+
+
+span.go__up{
+    border-radius: 50%;
+    position: sticky;
+    bottom: 121px;
+    left: 1166px;
+    background-color: #2C343E;
+    padding: 5px;
+}
+span.go__up img{
+    width: 20px;
+    height: 10px;
+    filter: invert(100%);
+}
+span.go__up:hover{
+    box-shadow: 0 0 5px 5px;
 }
