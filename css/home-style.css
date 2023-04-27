@@ -24,7 +24,7 @@ header{
 }
 
 .logo:hover .img__logo{
-    transform: rotate(360deg);
+    transform: rotateZ(360deg);
     cursor: pointer;
     transition: 1s linear ;
     
@@ -255,12 +255,12 @@ section.choose .container .choose__card {
 section.choose .container .choose__card:hover{
     transform: scale(1.05);
     box-shadow: 5px 5px 20px 1px black;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 section.choose .container .choose__card:hover img{
-    transform: rotate(360deg);
-    transition: 1s;
+    transform: rotateY(360deg);
+    transition: 2s;
 
 }
 
@@ -415,6 +415,9 @@ footer .logo .logo__text {
     font-size: 30px;
     color: #fff;
 }
+
+
+
 
 
 span.go__up{
