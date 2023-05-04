@@ -6,15 +6,16 @@ header .container {
     padding: 20px 0 10px 0;
 
 }
-header{
+
+header {
     position: fixed;
     width: 100%;
     margin: auto;
     top: -20px;
     background-color: #fff;
     z-index: 9999;
-  
-   
+
+
 }
 
 .logo {
@@ -23,13 +24,13 @@ header{
     align-items: center;
 }
 
-.logo:hover .img__logo{
+.logo:hover .img__logo {
     transform: rotateZ(360deg);
     cursor: pointer;
-    transition: 1s linear ;
-    
+    transition: 1s linear;
+
 }
-    
+
 
 
 header .logo .logo__text {
@@ -63,28 +64,30 @@ header .logo .logo__text {
     text-transform: uppercase;
     color: #83888F;
     margin-left: 32px;
-    
+
 
 
 }
 
-.navbar ul a:hover{
+.navbar ul a:hover {
     color: #222324;
-    text-shadow: 0px 5px 10px  #222324;
+    text-shadow: 0px 5px 10px #222324;
     transform: scale(1.05);
 }
-.active1{
+
+.active1 {
     color: #0b0c0c !important;
-    text-shadow: 0px 5px 10px  #222324;
+    text-shadow: 0px 5px 10px #222324;
     transform: scale(1.05);
     cursor: pointer;
 }
 
-.navbar ul li:hover{
+.navbar ul li:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }
-.navbar ul li:active{
+
+.navbar ul li:active {
     transform: scale(0.95);
 }
 
@@ -252,13 +255,13 @@ section.choose .container .choose__card {
     border-radius: 10px;
 }
 
-section.choose .container .choose__card:hover{
+section.choose .container .choose__card:hover {
     transform: scale(1.05);
     box-shadow: 5px 5px 20px 1px black;
     transition: 1.5s;
 }
 
-section.choose .container .choose__card:hover img{
+section.choose .container .choose__card:hover img {
     transform: rotateY(360deg);
     transition: 2s;
 
@@ -388,7 +391,7 @@ footer .container {
     margin-top: 210px;
 }
 
-footer .container .footer__nav:hover{
+footer .container .footer__nav:hover {
     color: #fff;
 }
 
@@ -420,7 +423,7 @@ footer .logo .logo__text {
 
 
 
-span.go__up{
+span.go__up {
     border-radius: 50%;
     position: absolute;
     bottom: 98px;
@@ -428,11 +431,242 @@ span.go__up{
     background-color: #2C343E;
     padding: 5px;
 }
-span.go__up img{
+
+span.go__up img {
     width: 20px;
     height: 10px;
     filter: invert(100%);
 }
-span.go__up:hover{
+
+span.go__up:hover {
     box-shadow: 0 0 5px 5px;
+}
+
+
+
+@media only screen and (max-width:375px) {
+    header .navbar {
+        display: none;
+    }
+
+    header{
+        width: 30%;
+    }
+
+    section.hero {
+        margin: 60px auto;
+        width: 375px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: auto;
+    background-position: -598px -93px;
+    border-radius: 10px;
+    
+    }
+    section.hero .container2{
+        text-align: center;
+    }
+    
+
+    section.hero h1 {
+        height: 73px;
+        width: 274px;
+        font-family: 'Fraunces', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FEFCF7;
+        padding-top: 100px;
+        margin-bottom: 32px;
+        text-align: center;
+
+    }
+
+    section.hero p {
+        width: 280px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-bottom: -20px;
+        text-align: center;
+    }
+
+    section.hero .btn{
+        margin-top:70px ;
+        margin-left: 0px;
+    }
+
+
+
+    .collection .hover{
+        font-weight: 900;
+    font-size: 39px;
+    line-height: 25px;
+    }
+
+    .collection__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 43px;
+    }
+    .collection__card img{
+        width: 200px;
+        
+    }
+
+    .collection__card h4 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 24px;
+        margin-bottom: 10px;
+    
+    }
+
+    .collection__card p {
+        width: 286px;
+       
+    }
+
+    section.choose {
+
+        margin-top: 1150px;
+        margin-bottom: 750px;
+    
+    }
+
+    section.choose .container {
+        padding-top: 45px;
+    }
+
+    section.choose .container h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    section.choose .container>p {
+        display: none;
+
+    }
+
+    section.choose .container .choose__cards {
+        display: flex;
+        flex-direction: column;
+        top: 292px;
+        left: 9px;
+    }
+    section.choose .container .choose__card{
+        margin-top: 20px;
+    }
+
+    section.choose .container .choose__card h5 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 60px 0 24px 0;
+    
+    }
+
+    section.how-work {
+        text-align: center;
+    }
+
+    .how-work .liner{
+        display: none;
+    }
+
+    .how-work .liner .sircle{
+        display: none;
+    }
+
+    .how-work__numbers{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .how-work__number {
+        text-align: center;
+        margin-right:0;
+        margin-top: 56px;
+    }
+
+    .how-work__number h1 {
+        margin-left:95px;
+        
+    }
+
+    .how-work__number h2 {
+        width: 280px;
+        font-size: 28px;
+        line-height: 32px;
+    
+    }
+
+    .how-work__number p {
+        width: 259px;
+        font-size: 12px;
+        line-height: 25px;
+        margin: auto;
+    
+    }
+    footer .container {
+        padding: 55px 0;
+        margin-bottom: 50px;
+
+        margin-top: 110px;
+    }
+
+    
+    footer .container .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .container .container2 nav{
+        text-align: center;
+    }
+    footer .container .container2 nav ul {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    footer .container .container2 ul a{
+        margin: 0 auto;
+    }
+
+    footer .container .container2 .links ul {
+        padding-left: 0;
+
+    }
+
+    footer .container .container2 .links ul a {
+        margin: 0 12px;
+    }
+    
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+
+
+
+
+
 }
