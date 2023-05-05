@@ -450,10 +450,10 @@ span.go__up:hover {
 @media only screen and (max-width:375px) {
     header .navbar {
         position: absolute;
-        top: 71%;
+        top: 68%;
         right: -100%;
         width: 190px;
-        height: 13vh;
+        height: 46px;
         background-color: #e5e8ecc5;
         border-radius: 30px;
         vertical-align: middle;
@@ -555,6 +555,7 @@ span.go__up:hover {
         align-items: center;
         position: absolute;
         top: 43px;
+        left: 11%;
     }
 
     .collection__card{
@@ -692,18 +693,22 @@ span.go__up:hover {
 
     footer .container .container2 ul a {
         margin: 0 auto;
+        
+    }
+    footer .container .container2 ul li{
+        margin-top: 20px;
     }
     .last__li{
         display: none;
     }
 
     footer .container .container2 .links ul {
-        padding-left: 0;
+        padding: 0px;
 
     }
 
     footer .container .container2 .links ul a {
-        margin: 0 12px;
+        margin: 15px;
     }
 
     span.go__up{

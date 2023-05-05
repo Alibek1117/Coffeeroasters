@@ -9,7 +9,7 @@ section.about__hero .container {
     background-image: url(../img/about.svg);
     background-repeat: no-repeat;
     background-position: center center;
-    padding-top: 50px;
+    padding-top: 80px;
     border-radius: 10px;
     overflow: hidden;
 }
