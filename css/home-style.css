@@ -90,6 +90,9 @@ header .logo .logo__text {
 .navbar ul li:active {
     transform: scale(0.95);
 }
+img.menu__img{
+    display: none;
+}
 
 
 section.hero {
@@ -425,7 +428,7 @@ footer .logo .logo__text {
 
 span.go__up {
     border-radius: 50%;
-    position: absolute;
+    position:fixed;
     bottom: 98px;
     left: 1229px;
     background-color: #2C343E;
@@ -446,11 +449,44 @@ span.go__up:hover {
 
 @media only screen and (max-width:375px) {
     header .navbar {
-        display: none;
+        position: absolute;
+        top: 71%;
+        right: -100%;
+        width: 190px;
+        height: 13vh;
+        background-color: #e5e8ecc5;
+        border-radius: 30px;
+        vertical-align: middle;
+        padding-top: 0;
+        
     }
 
-    header{
+    header .navbar.open{
+        right: 70px;
+    }
+    header .nav__ul{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+
+    }
+
+
+    header .nav__ul a{
+        margin-left: 20px;
+       
+    }
+    header .nav__ul li{
+        margin-top: 0px;
+    }
+
+    header {
         width: 100%;
+    }
+    img.menu__img{
+        display: block;
+        width: 10%;
     }
 
     section.hero {
@@ -460,14 +496,15 @@ span.go__up:hover {
         height: 500px;
         background-repeat: no-repeat;
         background-size: auto;
-    background-position: -598px -93px;
-    border-radius: 10px;
-    
+        background-position: -598px -93px;
+        border-radius: 10px;
+
     }
-    section.hero .container2{
+
+    section.hero .container2 {
         text-align: center;
     }
-    
+
 
     section.hero h1 {
         height: 73px;
@@ -478,9 +515,10 @@ span.go__up:hover {
         font-size: 40px;
         line-height: 40px;
         color: #FEFCF7;
-        padding-top: 100px;
-        margin-bottom: 32px;
+        /* padding-top: 100px;
+        margin-bottom: 32px; */
         text-align: center;
+        margin:100px  auto 32px auto;
 
     }
 
@@ -492,21 +530,22 @@ span.go__up:hover {
         color: #FEFCF7;
         mix-blend-mode: normal;
         opacity: 0.8;
-        margin-bottom: -20px;
+        /* margin-bottom: -20px; */
         text-align: center;
+        margin: auto auto -20px auto;
     }
 
-    section.hero .btn{
-        margin-top:70px ;
+    section.hero .btn {
+        margin-top: 70px;
         margin-left: 0px;
     }
 
 
 
-    .collection .hover{
+    .collection .hover {
         font-weight: 900;
-    font-size: 39px;
-    line-height: 25px;
+        font-size: 39px;
+        line-height: 25px;
     }
 
     .collection__cards {
@@ -517,9 +556,14 @@ span.go__up:hover {
         position: absolute;
         top: 43px;
     }
-    .collection__card img{
+
+    .collection__card{
+        margin: 0 auto;
+    }
+
+    .collection__card img {
         width: 200px;
-        
+
     }
 
     .collection__card h4 {
@@ -527,19 +571,19 @@ span.go__up:hover {
         line-height: 32px;
         margin-top: 24px;
         margin-bottom: 10px;
-    
+
     }
 
     .collection__card p {
         width: 286px;
-       
+
     }
 
     section.choose {
 
         margin-top: 1150px;
         margin-bottom: 750px;
-    
+
     }
 
     section.choose .container {
@@ -557,12 +601,16 @@ span.go__up:hover {
     }
 
     section.choose .container .choose__cards {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
+        display: block;
+        margin: auto;
         top: 292px;
-        left: 9px;
+        left: 13px;
+        width: 90%;
     }
-    section.choose .container .choose__card{
+
+    section.choose .container .choose__card {
         margin-top: 20px;
     }
 
@@ -570,22 +618,22 @@ span.go__up:hover {
         font-size: 24px;
         line-height: 32px;
         margin: 60px 0 24px 0;
-    
+
     }
 
     section.how-work {
         text-align: center;
     }
 
-    .how-work .liner{
+    .how-work .liner {
         display: none;
     }
 
-    .how-work .liner .sircle{
+    .how-work .liner .sircle {
         display: none;
     }
 
-    .how-work__numbers{
+    .how-work__numbers {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -593,20 +641,20 @@ span.go__up:hover {
 
     .how-work__number {
         text-align: center;
-        margin-right:0;
+        margin-right: 0;
         margin-top: 56px;
     }
 
     .how-work__number h1 {
-        margin-left:95px;
-        
+        margin-left: 95px;
+
     }
 
     .how-work__number h2 {
         width: 280px;
         font-size: 28px;
         line-height: 32px;
-    
+
     }
 
     .how-work__number p {
@@ -614,8 +662,9 @@ span.go__up:hover {
         font-size: 12px;
         line-height: 25px;
         margin: auto;
-    
+
     }
+
     footer .container {
         padding: 55px 0;
         margin-bottom: 50px;
@@ -623,15 +672,17 @@ span.go__up:hover {
         margin-top: 110px;
     }
 
-    
+
     footer .container .container2 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    footer .container .container2 nav{
+
+    footer .container .container2 nav {
         text-align: center;
     }
+
     footer .container .container2 nav ul {
         padding-left: 0;
         display: flex;
@@ -639,8 +690,11 @@ span.go__up:hover {
         /* align-items: center; */
     }
 
-    footer .container .container2 ul a{
+    footer .container .container2 ul a {
         margin: 0 auto;
+    }
+    .last__li{
+        display: none;
     }
 
     footer .container .container2 .links ul {
@@ -651,7 +705,15 @@ span.go__up:hover {
     footer .container .container2 .links ul a {
         margin: 0 12px;
     }
-    
+
+    span.go__up{
+        position: fixed;
+        left: 295px;
+        bottom: 15px;
+    }
+
+   
+    }
 
 
 
@@ -659,15 +721,15 @@ span.go__up:hover {
 
 
 
-    
-
-
-    
-    
 
 
 
 
 
 
-}
+
+
+
+
+
+

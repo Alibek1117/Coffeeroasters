@@ -188,6 +188,152 @@ section.quarter .container2 h1.title {
 }
 
 
-@media only screen and (max-width:475px){
+@media only screen and (max-width:375px){
+
+
+    header .container{
+        /* margin-left: 0; */
+    }
+
+    section.about__hero .container {
+        width: 82%;
+    }
+
+
+    section.about__hero .container p {
+        width: 100%;
+        
+    }
+    section.commitment .container2 {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+
+    section.commitment .container2 img{
+        width: 100%;
+    }
+
+    section.commitment .container2 .commitment__right {
+        margin-left: 0px;
+        vertical-align: middle;
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+
+    section.commitment .container2 .commitment__left {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-right: 0px;
+        text-align: center;
+        width: 100%;
+    
+    }
+
+    section.commitment .container2 h1 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: 50px;
+        text-align: center;
+    
+    }
+
+    section.commitment .container2 p {
+        width: 90%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin: auto;
+        text-align: center;
+    }
+
+    section.quality .container {
+        width: 90%;
+        padding-top: 100px;
+        text-align: center;
+        position: relative;
+    }
+
+    section.quality .container .container2 {
+        display: block;
+        justify-content: space-between;
+        padding-bottom: 1px;
+        width: 100%;
+    }
+    .quality__left {
+        margin:auto;
+    }
+    .quality__right {
+        position: static;
+        margin:auto;
+        width: 70%;
+        height:1px;
+    }
+
+    .quality__right img {
+        position: absolute;
+        top: -14%;
+        left: 28%;
+        border-radius: 10px;
+
+        width: 157px;
+        height: 170px;
+    
+    }
+
+    .quality__left h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin-right: 10%;
+        
+    
+    }
+.quality__left p {
+    width: 90%;
+
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+section.quarter .container2 {
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+section.quarter .container2 h1.title {
+    font-family: Fraunces ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+
+}
+
+.quarter__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.quarter__card {
+    margin-right: 0px;
+    margin-top: 70px;
+}
+
+
+
     
 }
