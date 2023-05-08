@@ -117,14 +117,14 @@ section.quality .container .container2 {
     font-family: Fraunces;
     font-style: normal;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 48px;
     color: #FEFCF7;
 
 }
 
 .quality__left p {
-    width: 470px;
+    width: 52%;
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
@@ -188,7 +188,139 @@ section.quarter .container2 h1.title {
 }
 
 
-@media only screen and (max-width:375px){
+@media only screen and (max-width: 992px){
+    section.commitment .container2 .commitment__right {
+        margin-left: 20px;
+        vertical-align: middle;
+        width: 70%;
+        margin-left: 0;
+    
+    }
+    section.commitment .container2{
+        justify-content: left;
+    }
+    section.commitment .container2 h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    section.commitment .container2 p {
+        width: 100%;
+        font-size: 22px;
+        line-height: 26px;
+       
+    }
+    section.quality{
+        position: relative;
+        top: 200px;
+       
+    }
+
+    section.quality .container .container2{
+        padding-bottom: 50px;
+    }
+
+    .quality__right{
+        width: 0;
+        margin: 0;
+    }
+    .quality__right img {
+        position: absolute;
+        top: -213px;
+        left: -594px;
+        border-radius: 10px;
+        width: 503px;
+        height: 246px;
+        height: 322px;
+    }
+    .quality__left{
+        margin-right: 0;
+    }
+    .quality__left h1 {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 180px;
+        font-size: 35px;
+
+    }
+    .quality__left p {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    section.commitment .container2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 140px;
+    }
+    section.commitment .container2 .commitment__left {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-right: 50px;
+        
+    
+    }
+    section.commitment .container2 .commitment__right {
+        margin-left: 20px;
+        width: 100% !important; 
+    }
+
+    section.commitment .container2 .commitment__left {
+       width: 100%;
+    
+    }
+    section.commitment .container2 .commitment__left img{
+        width: 100%;
+    }
+    
+    
+    section.commitment .container2 h1 {
+        text-align: center;
+    
+    }
+    section.commitment .container2 p {
+        width: 95%;
+        text-align: center;
+        font-size: 20px;
+
+    }
+    section.quality .container .container2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 150px;
+        width: 100%;
+    }
+
+    
+
+    .quality__right img {
+        position: absolute;
+        top: -636px;
+        left: -19px;
+        border-radius: 10px;
+        width: 503px;
+        height: 246px;
+        height: 322px;
+    }
+
+
+    .quarter__cards{
+       display: block;
+       text-align: center;
+       margin: 0 auto;
+    }
+
+    .quarter__card{
+        margin: 80px auto;
+    }
+}
+
+@media only screen and (max-width:576px){
 
 
     header .container{
@@ -278,24 +410,23 @@ section.quarter .container2 h1.title {
 
     .quality__right img {
         position: absolute;
-        top: -14%;
-        left: 28%;
+        top: -116px;
+        left: -73px;
         border-radius: 10px;
-
-        width: 157px;
-        height: 170px;
-    
+        width: 503px;
+        height: 246px;
+        height: 187px;
     }
 
     .quality__left h1 {
         font-size: 28px;
         line-height: 28px;
-        margin-right: 10%;
+        /* margin-right: 0%; */
         
     
     }
 .quality__left p {
-    width: 90%;
+    width: 100%;
 
     font-size: 15px;
     line-height: 25px;
@@ -319,7 +450,7 @@ section.quarter .container2 h1.title {
 }
 
 .quarter__cards {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     margin-top: 0px;
@@ -337,3 +468,5 @@ section.quarter .container2 h1.title {
 
     
 }
+
+

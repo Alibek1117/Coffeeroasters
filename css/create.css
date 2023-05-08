@@ -130,8 +130,16 @@ section.how__drink .how__drink__right {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    position: relative;
+    right: -100%;
 
 }
+
+.box .box__cards.opencard{
+    right: 0%;
+}
+
+
 
 .box .box__cards .box__card {
     padding: 30px 10px 60px 10px;
