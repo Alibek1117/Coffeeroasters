@@ -632,7 +632,7 @@ span.go__up:hover {
     }
 
     section.hero p {
-        min-width: 400px;
+        min-width: 150px;
         font-weight: 400;
         font-size: 20px;
         line-height: 25px;
@@ -934,7 +934,7 @@ span.go__up:hover {
 
     section.hero h1 {
         height: 73px;
-        width: 274px;
+        width: 90%;
         font-family: 'Fraunces', serif;
         font-style: normal;
         font-weight: 900;
@@ -947,7 +947,7 @@ span.go__up:hover {
     }
 
     section.hero p {
-        width: 280px;
+        width: 100%;
         font-weight: 400;
         font-size: 15px;
         line-height: 25px;
